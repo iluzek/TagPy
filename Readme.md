@@ -23,7 +23,7 @@ Script requires a path to scan.
 
 python tagpy.py "path to directory"
 
-python tagpy.py "C:\ProjectToScan\"
+python tagpy.py "C:\ProjectToScan"
 
 ## Motivation
 
