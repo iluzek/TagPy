@@ -47,7 +47,7 @@ Requirements: Python 3
 2. Extract the ZIP
 3. No installation
 4. Run it from console - python tagpy.py "path to scan" (
-NOTE:   Do not add "/" at the end of the path - Bug will cause the path to be unrecognised - Will be fixing it soon.
+NOTE:   Do not add "/" or "\" at the end of the path - Bug will cause the path to be unrecognised - Will be fixing it soon.
 5. Open directory RESULTS
 6. Open newly created directory - Directory_Date@Time
 7. Use results.csv or open sortable_results.html
