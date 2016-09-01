@@ -14,7 +14,7 @@ Results on HTML page are highlighted based on Searched Items(case insensitive) w
 
 Example:
     -Searched Item = port
-    -Results = [port, Port, PORT, import, Unsupported, support, getPort, port, DataTransportKEY]
+    -Results = [port, Port, PORT, import, Unsupported, support, getPort, DataTransportKEY]
     
 Highlighted part of word "Unsupported" will only be "port", which makes searching a bit easier.
 
