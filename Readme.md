@@ -1,4 +1,4 @@
-## TagPy
+# TagPy
 
 ## Synopsis
 TagPy is a python script which scans contents of text based files for key words within dictionaries saved by user and outputs results as CSV file as well and HTML page with sortable table.
