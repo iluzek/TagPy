@@ -19,6 +19,7 @@ NOTE: Highlighting on this page does not look the same as in html page generated
 
 Example 1:
 Searched Item = port
+
 Results = [<b><mark>port</b></mark>, <b><mark>Port</b></mark>, <b><mark>PORT</b></mark>, im<b><mark>port</b></mark>, Unsup<b><mark>port</b></mark>ed, sup<b><mark>port</b></mark>, get<b><mark>Port</b></mark>, DataTrans<b><mark>port</b></mark>KEY]
 
 Example 2:
