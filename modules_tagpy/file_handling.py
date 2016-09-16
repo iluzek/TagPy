@@ -171,6 +171,7 @@ def generate_html_table(data_for_table):
     html_table.append("</table>")
     return html_table
 
+
 # ======================================================================================================================
 # Name:
 #               html_styles()
@@ -204,6 +205,7 @@ def html_styles():
     html_styles.append("</style>")
 
     return html_styles
+
 
 # ======================================================================================================================
 # Name:
