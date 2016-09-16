@@ -2,7 +2,7 @@
 import modules_tagpy.file_handling as file_handle
 import os
 import html
-from time import gmtime, strftime
+from time import localtime, strftime
 from shutil import copyfile
 import modules_tagpy.user_input as user_in
 
@@ -11,7 +11,7 @@ import modules_tagpy.user_input as user_in
 # ======================================================================================================================
 # get user_input for path - make sure its directory
 
-creation_time = str(strftime("%Y-%m-%d@%H-%M-%S", gmtime()))  # get datetime in format YYYY-MM-DD-HH-MM-SS
+creation_time = str(strftime("%Y-%m-%d@%H-%M-%S", localtime()))  # get datetime in format YYYY-MM-DD-HH-MM-SS
 
 user_input = user_in.args.target
 
