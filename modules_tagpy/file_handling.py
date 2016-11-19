@@ -104,7 +104,6 @@ def file_to_lines(file_path):
         # print("Error encountered during opening : " + file_path + " with error: " + str(e))
         pass
         # ignore errors for now are those are very likely and are not important at that stage
-    except IOErrr
     except UnicodeDecodeError as ee:
         import tagpy
         short_file_name = os.path.relpath(file_path, os.path.split(tagpy.user_input)[0])  # TODO seperate settings (file)
