@@ -97,7 +97,7 @@ def file_to_lines(file_path):
             # http://stackoverflow.com/questions/12752313/unicodedecodeerror-in-python-3-when-importing-a-csv-file
             # as suggested http://stackoverflow.com/questions/2396238/memory-error-due-to-the-huge-input-file-size
             for line in f:
-                lines = line.rstrip("\n") # try that for memory issues
+                lines.append(line.rstrip("\n")) # try that for memory issues
             #f.read().splitlines() could not handle it in memory?
             #lines = f.read().splitlines()  # splits contents of the file line by line into a list
     except IOError as e:
