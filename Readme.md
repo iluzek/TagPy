@@ -57,8 +57,9 @@ Script requires a path to scan.
 Example:
 
     python tagpy.py "C:\ProjectToScan"
+    or
+    python tagpy.py "C:\ProjectToScan\"
 
-NOTE:   Do not add &quot;/&quot; or &quot;\\&quot; at the end of the path - Bug will cause the path to be unrecognized - Will be fixing it soon.
 
 ## Motivation
 
@@ -69,7 +70,7 @@ That worked relatively well, however output in .txt file looked atrocious.
 
 While searching for a better method to display content, an idea to use HTML with javascript to sort table was suggested and it looked pretty good.
 
-Many hours later..after completely breaking code and pretty much rewriting it from scratch, output to csv file and HTML page was implemented.
+Many hours later...after completely breaking code and pretty much rewriting it from scratch, output to csv file and HTML page was implemented.
 Additionally use of HTML allowed for applying &lt;mark&gt;&lt;/mark&gt; tags within the table contents to quickly identify searched word within line of code.
 
 
