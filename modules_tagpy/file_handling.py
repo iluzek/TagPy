@@ -123,7 +123,7 @@ def file_to_lines(file_path):
 #               list_for_csv - a nested list to be saved as csv file
 # ======================================================================================================================
 def save_to_csv(file_name, list_for_csv):
-    my_file = open(file_name + ".csv", 'w')
+    my_file = open(file_name + ".csv", 'w', encoding='utf-8') # encoding seems to be required to correctly save results
     wr = csv.writer(my_file, quoting=csv.QUOTE_ALL)
     wr.writerows(list_for_csv)
 
@@ -138,10 +138,11 @@ def save_to_csv(file_name, list_for_csv):
 # ======================================================================================================================
 def save_to_file(file_name, extension, data=None):
     try:
-        f = open(file_name+"."+extension, 'w')
+        f = open(file_name+"."+extension, 'w', encoding='utf-8') # encoding seems to be required to correctly save results
         if data:
             for line in data:
-                f.write(line + '\n')
+                f.write(line)
+                f.write('\n')
         f.close()
     except IOError:
         print("there was a problem with saving to a file")
