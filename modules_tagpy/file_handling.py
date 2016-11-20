@@ -105,10 +105,11 @@ def file_to_lines(file_path):
         pass
         # ignore errors for now are those are very likely and are not important at that stage
     except UnicodeDecodeError as ee:
-        import tagpy
-        short_file_name = os.path.relpath(file_path, os.path.split(tagpy.user_input)[0])  # TODO seperate settings (file)
-        #print("UnicodeDecodeError - passing file: "+short_file_name)
-        print(str(ee)+" - passing file: "+ short_file_name) #TODO output this to the log of errors...
+        #import tagpy
+        #short_file_name = os.path.relpath(file_path, os.path.split(tagpy.user_input)[0])  # TODO seperate settings (file)
+        ##print("UnicodeDecodeError - passing file: "+short_file_name)
+        #print(str(ee)+" - passing file: "+ short_file_name) #TODO output this to the log of errors...
+        # ignore output for this.
         pass
     return lines
 
