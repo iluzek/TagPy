@@ -51,14 +51,18 @@ Example 2:
 
 ## Code Example
 Script requires a path to scan.
-
+    python tagpy.py path_to_directory
     python tagpy.py "path to directory"
 
 Example:
-
-    python tagpy.py "C:\ProjectToScan"
-    or
-    python tagpy.py "C:\ProjectToScan\"
+    
+    python tagpy.py C:\ProjectToScan
+    python tagpy.py C:\ProjectToScan\
+    
+    if path contains spaces use "" to encapsulate path
+    
+    python tagpy.py "C:\Project To Scan"
+    python tagpy.py "C:\Project To Scan\"
 
 
 ## Motivation
