@@ -114,8 +114,5 @@ To add words/phrases or strings into specific dictionary simply add new content 
 Feel free to remove current dictionaries and add your own.
 
 ## Further Development
-
-I have plans to work on the project in future.
-I have some ideas on what could be added to the project, however at the time of writing (01 September 2016), there is not much time that I can allocate to the project  and as such it might not find any updates for a while.
-
-This project is pretty specific and I cannot say I found a similar program or script that would do what this python script does, so hopefully this helps someone.
+Due to lack of external feedback Project is not actively worked on.
+Whenever problems are discovered, I attempt to fix them for future use.
